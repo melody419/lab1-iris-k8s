@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+mlruns/
+mlflow.db
+mlartifacts/
+bin/
+
+# 只留在本機、不上傳
+loadtest.py
+操作教學.md
+screenshots/hpa-watch.log

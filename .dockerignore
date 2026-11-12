@@ -1,0 +1,10 @@
+# docker build 時不要送進 Docker 的東西（讓 build 更快、映像檔更乾淨）
+.venv/
+__pycache__/
+mlruns/
+mlflow.db
+mlartifacts/
+bin/
+screenshots/
+.git/
+*.md
